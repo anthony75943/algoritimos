@@ -6,5 +6,6 @@ avanca. forEach(button => {
        const proximoPasso = 'passso-'+ this.getAttribute('data-proximo');
 
        atual.classList.remove('ativo');
+       document.getElementById(proximoPasso).classlist.add('ativo')
     })  
 })
