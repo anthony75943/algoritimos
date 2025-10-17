@@ -5,6 +5,6 @@ avanca. forEach(button => {
        const atual = document.queryselector('.ativo');
        const proximoPasso = 'passso-'+ this.getAttribute('data-proximo');
 
-       atual.classList
+       atual.classList.remove('ativo')
     })  
 })
